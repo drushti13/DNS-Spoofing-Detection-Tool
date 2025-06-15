@@ -1,30 +1,37 @@
-# 🚨 DNS Spoofing Detection Tool
+# DNS Spoofing Detection Tool
 
-A real-time DNS spoofing detection tool with an interactive GUI, live traffic graph, sound alerts, and desktop notifications — built using Python, Scapy, Tkinter, and Matplotlib.
+A Python-based security utility that continuously monitors DNS traffic and detects spoofing attempts in real time. The application includes a graphical user interface, live traffic visualization, sound-based alerts, and desktop notifications to ensure an intuitive and responsive experience.
 
----
+## Description
 
-## 🔍 Features
+This tool is designed to identify DNS spoofing by actively inspecting incoming DNS responses and validating them against a trusted DNS server (Google DNS - 8.8.8.8). It provides network administrators, researchers, or students with a hands-on solution for understanding and observing DNS-related vulnerabilities. The application emphasizes usability through its interactive GUI and automated alert mechanisms.
 
-- **🔎 Live DNS Monitoring** — Captures DNS traffic in real time using Scapy.
-- **🛡️ Spoofing Detection** — Compares DNS responses with a trusted resolver (`8.8.8.8`) to detect tampering.
-- **⚠️ Suspicious Packet Alerts** — Flags DNS responses with missing answer sections.
-- **📢 Desktop Notifications** — Get notified instantly via system tray alerts (via `plyer`).
-- **🔊 Sound Alerts** — Audible beeps when spoofing or suspicious activity is detected.
-- **🖥️ GUI Interface** — Tkinter-based GUI to view alerts and interact with logs.
-- **📊 Live DNS Traffic Graph** — Real-time graph of DNS query volume over the last 60 seconds using Matplotlib.
-- **🗂️ Filtering Options** — Filter logs to show all alerts, only spoofed responses, or only suspicious packets.
-- **💾 Log Export** — Save filtered alerts to a `.txt` file for further analysis.
+## Key Features
 
----
+- **Real-Time DNS Capture**: Continuously inspects DNS packets on the network using Scapy.
+- **Spoof Detection Logic**: Validates DNS answers by cross-referencing responses with a reliable DNS resolver to detect inconsistencies.
+- **Anomaly Alerts**: Highlights DNS replies lacking proper answer sections as potentially suspicious.
+- **System Notifications**: Delivers instant desktop alerts when spoofing or abnormal behavior is identified.
+- **Audio Alerts**: Triggers sound notifications for quick attention.
+- **User Interface**: Built with Tkinter for an interactive environment to monitor events and logs.
+- **Live Visualization**: Displays DNS query volume trends over time using Matplotlib-based dynamic graphing.
+- **Filter Controls**: Allows users to refine log views—showing all entries, spoofed events, or only suspect packets.
+- **Log Exporting**: Enables saving filtered logs into a `.txt` file for archival or external review.
+
+## Technology Stack
+
+- **Programming Language**: Python
+- **Libraries**:
+  - Scapy (network packet processing)
+  - Tkinter (GUI framework)
+  - Matplotlib (live graph plotting)
+  - Plyer (desktop notifications)
 
 
 ## 📸 Screenshot
 
 ![image](https://github.com/user-attachments/assets/6a9c637d-dfe9-43f5-a80c-fd319ef2a716)
 
-
----
 
 ## 🛠️ Requirements
 
