@@ -21,7 +21,8 @@ A real-time DNS spoofing detection tool with an interactive GUI, live traffic gr
 
 ## 📸 Screenshot
 
->![Screenshot (436)](https://github.com/user-attachments/assets/8d7b3d44-d4f7-44a5-9e74-b89f7594f93a)
+![image](https://github.com/user-attachments/assets/6a9c637d-dfe9-43f5-a80c-fd319ef2a716)
+
 
 ---
 
