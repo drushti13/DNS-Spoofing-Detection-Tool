@@ -33,16 +33,6 @@ This tool is designed to identify DNS spoofing by actively inspecting incoming D
 ![image](https://github.com/user-attachments/assets/6a9c637d-dfe9-43f5-a80c-fd319ef2a716)
 
 
-## 🛠️ Requirements
-
-- Python 3.x
-- [`scapy`](https://pypi.org/project/scapy/)
-- [`dnspython`](https://pypi.org/project/dnspython/)
-- [`matplotlib`](https://pypi.org/project/matplotlib/)
-- [`plyer`](https://pypi.org/project/plyer/) *(optional, for desktop notifications)*
-- `tkinter` (Usually included with Python installations)
-- `npcap` - scapy needs either Npcap (recommended) or the old WinPcap to sniff network packets on Windows
-
 ### 📦 Install Dependencies
 
 ```bash
